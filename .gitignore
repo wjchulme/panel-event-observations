@@ -8,6 +8,18 @@
 # Example code in package build process
 *-Ex.R
 
+
+# restricted access data
+data-processed/
+data-raw/
+
+# restricted access documentation
+Markdown/
+documentation/
+
+# archived materials from previous versions
+archive/
+
 # Output files from R CMD build
 /*.tar.gz
 
